@@ -1,0 +1,17 @@
+{
+  "name": "TestConverterCPP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-gyp configure",
+    "build":"node-gyp build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^3.0.0",
+    "node-gyp": "^7.1.0"
+  }
+}

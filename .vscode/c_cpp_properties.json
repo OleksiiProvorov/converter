@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/modules",
+                "${workspaceFolder}/src/include",
+                "/usr/local/Cellar/gcc/9.2.0_1/include/c++/9.2.0",
+                "/usr/local/Cellar/gcc/9.2.0_1/include/c++/9.2.0/x86_64-apple-darwin19",
+                "${workspaceFolder}/src/libs",
+                ""
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
